@@ -97,6 +97,8 @@
      min-height: 100vh;
         padding: 10rem 15%;
  }
+
+ /*Home Section*/
  .home{
      display: flex;
      align-items: center;
@@ -175,6 +177,8 @@
      transform: scale(1.2)translateY(-5px);
      box-shadow: 0 0 25px #67C090;
  }
+
+ /*Projects Section*/
  .projects{
      background-color: var(--bg-colour) ;
  }
@@ -233,7 +237,8 @@
         font-size: 1.8rem;
         border-radius: 1rem;
     }
-    
+
+    /*Responsive Styles*/
     @media(max-width: 1285px) {
         #menu-icon{
             display: block;
